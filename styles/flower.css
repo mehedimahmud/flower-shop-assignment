@@ -64,7 +64,8 @@
     font-weight: 400;
     line-height: 30px;
     width: 600px;
-    padding: 0px 660px 50px;
+    margin: 0 auto;
+    padding-bottom: 50px;
 
 }
 
@@ -171,9 +172,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    
+
 }
-.social-media-container{
+
+.social-media-container {
     padding: 0px 240px 130px;
 }
 
@@ -200,8 +202,109 @@
     width: 594px;
     flex-direction: column;
     flex-shrink: 0;
+    padding-bottom: 50px;
 }
-.social-media-image-container{
+
+.social-media-image-container {
     display: flex;
     gap: 24px;
+
+}
+
+.deal-part {
+    background-image: url('../styles/Rectangle\ 9.png');
+    margin: 0px 240px 128px;
+    align-items: center;
+    width: 1440px;
+    height: 449px;
+
+
+}
+
+.deal-tittle {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 122px;
+
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.email-form {
+    display: flex;
+    padding-left: 280px;
+}
+
+
+.contact-email input {
+
+    padding: 22px 540px 22px 22px;
+}
+
+.foot-container {
+    background-color: #111010;
+    text-align: center;
+    width: 1922px;
+    height: 449px;
+    padding-top: 130px;
+
+
+}
+
+.foot-tittle {
+
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.flower-shopping {
+    color: #E55473;
+}
+
+.flower-dokan {
+    color: rgba(255, 255, 255, 1)
+}
+
+.foot-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+
+    display: flex;
+    width: 625px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    margin: 0 auto;
+}
+
+.final-line {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

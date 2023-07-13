@@ -1,3 +1,11 @@
+*{
+    width: 100%;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .banner-container {
     display: flex;
     background: rgba(229, 84, 115, 0.10);
@@ -13,6 +21,7 @@
     font-size: 80px;
     font-weight: 800;
     width: 700px;
+    font-family: Lato;
 }
 
 .banner-description {
@@ -39,6 +48,11 @@
 .banner-image {
     padding-top: 50px;
     margin-bottom: 0px;
+
+}
+
+.banner-image img {
+    height: 100%;
 }
 
 .featured-flower {
